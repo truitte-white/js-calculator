@@ -30,7 +30,7 @@ operationButton.forEach(function(opBtn) {
             calcDisplay.innerText = (calcDisplay.innerText/100)
         }
         else {
-        calcDisplay.innerText = value 
+        calcDisplay.innerText += value 
         }
     })
 })
