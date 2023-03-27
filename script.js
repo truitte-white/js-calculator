@@ -20,8 +20,8 @@ operationButton.forEach(function(opBtn) {
         if (press.target.innerText  == `sqrt`) {
             calcDisplay.innerText = Math.sqrt(calcDisplay.innerText).toFixed(9)
         }
-        else if (press.target.innerText  == 'sqrd') {
-            calcDisplay.innerText = (calcDisplay.innerText * calcDisplay.innerText)
+        else if (press.target.innerText  == 'sqrd') { //tried to use the X^2 where the little 2 is next to it in the html but when I tried to calculate the answer
+            calcDisplay.innerText = (calcDisplay.innerText * calcDisplay.innerText)//sometimes it would add it by 2 and sometimes it would display another 2 next to it
         }
         else if (press.target.innerText  == 'tan') {
             calcDisplay.innerText = Math.tan(calcDisplay.innerText).toFixed(9)
